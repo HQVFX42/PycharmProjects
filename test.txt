@@ -1,0 +1,3 @@
+file write
+Good morning
+nice morning

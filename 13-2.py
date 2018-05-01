@@ -1,0 +1,6 @@
+filename = input("파일 이름을 입력하세요: ")
+inputfile = open(filename, "r")
+inputStr = inputfile.read()
+print("문자", len(inputStr))
+print("단어", len(inputStr.split()))
+print("행", len(inputStr.split("\n")))

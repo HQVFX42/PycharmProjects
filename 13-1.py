@@ -1,0 +1,10 @@
+filename = input("파일 이름을 입력하세요: ")
+removeStr = input("제거할 문자열을 입력하세요: ")
+inputfile = open(filename, "r")
+inputStr = inputfile.read()
+outputStr = inputStr.replace(removeStr,"")
+inputfile.close()
+outputfile = open("test2.txt", "w")
+print(outputStr,  file=outputfile)
+outputfile.close()
+
